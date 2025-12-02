@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="S2M Production - Videobooth 360 premium untuk wedding, ulang tahun, dan acara spesial. Layanan terbaik di Lubuklinggau.">
+    <meta name="keywords" content="videobooth 360, rental videobooth, wedding videobooth, S2M Production, Lubuklinggau">
+    <meta name="author" content="S2M Production">
+    <meta name="theme-color" content="#C9A227">
+    <title>S2M Production - Videobooth 360 Premium</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="src/logo.png">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-overlay" id="loadingScreen">
+        <div class="loading-content">
+            <div class="loading-spinner"></div>
+            <div class="loading-text">S2M Production</div>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="navbar container">
+            <a href="#home" class="nav-logo">
+                <img src="src/logo.png" alt="S2M Production Logo" class="logo-img">
+                <span class="logo-text">S2M Production</span>
+            </a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#layanan">Layanan</a></li>
+                <li><a href="#paket">Paket</a></li>
+                <li><a href="#benefits">Benefit</a></li>
+                <li><a href="#gallery">Galeri</a></li>
+                <li><a href="#testimonials">Testimoni</a></li>
+                <li><a href="#faq">FAQ</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="https://wa.me/6281211114522?text=Halo%20S2M%20Production,%20saya%20tertarik%20dengan%20layanan%20Videobooth%20360" class="btn btn-gold btn-sm nav-cta">
+                    <i class="fab fa-whatsapp"></i> Hubungi Kami
+                </a>
+                <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-bg">
+                <div class="floating-elements">
+                    <div class="float-circle c1"></div>
+                    <div class="float-circle c2"></div>
+                    <div class="float-circle c3"></div>
+                </div>
+                <div class="particles">
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                    <div class="particle"></div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <i class="fas fa-crown"></i>
+                        <span>Premium Experience</span>
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="line">Videobooth 360°</span>
+                        <span class="line highlight">S2M Production</span>
+                    </h1>
+                    <p class="hero-desc">
+                        Abadikan momen spesial Anda dengan teknologi videobooth 360° terdepan. 
+                        Hasil video sinematik berkualitas tinggi untuk wedding, ulang tahun, dan berbagai acara istimewa.
+                    </p>
+                    <div class="hero-location">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Melayani Lubuklinggau & Sekitarnya</span>
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            <span class="stat-num">30+</span>
+                            <span class="stat-label">Event Sukses</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">100%</span>
+                            <span class="stat-label">Kepuasan</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-num">5★</span>
+                            <span class="stat-label">Rating</span>
+                        </div>
+                    </div>
+                    <div class="hero-cta">
+                        <a href="https://wa.me/6281211114522?text=Halo%20S2M%20Production,%20saya%20ingin%20konsultasi%20tentang%20Videobooth%20360" class="btn btn-gold btn-lg">
+                            <i class="fab fa-whatsapp"></i> Konsultasi Gratis
+                        </a>
+                        <a href="#gallery" class="btn btn-outline btn-lg">
+                            <i class="fas fa-play-circle"></i> Lihat Hasil
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <span>Scroll ke bawah</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- Layanan Section -->
+        <section id="layanan" class="section layanan-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">
+                        <i class="fas fa-gem"></i>
+                        <span>Layanan Kami</span>
+                    </div>
+                    <h2 class="section-title">Paket <span class="highlight">Videobooth 360°</span> untuk Setiap Momen</h2>
+                    <p class="section-desc">Kami menyediakan berbagai pilihan paket yang dapat disesuaikan dengan kebutuhan acara Anda</p>
+                </div>
+                
+                <div class="layanan-grid">
+                    <div class="layanan-card featured">
+                        <div class="popular-badge">Populer</div>
+                        <div class="layanan-icon"><i class="fas fa-ring"></i></div>
+                        <h3>Wedding</h3>
+                        <p>Abadikan momen pernikahan dengan video 360° yang memukau. Cocok untuk resepsi dan akad nikah.</p>
+                    </div>
+                    <div class="layanan-card">
+                        <div class="layanan-icon"><i class="fas fa-birthday-cake"></i></div>
+                        <h3>Ulang Tahun</h3>
+                        <p>Buat pesta ulang tahun lebih berkesan dengan videobooth 360° yang seru dan interaktif.</p>
+                    </div>
+                    <div class="layanan-card">
+                        <div class="layanan-icon"><i class="fas fa-building"></i></div>
+                        <h3>Corporate Event</h3>
+                        <p>Tingkatkan engagement di acara perusahaan dengan pengalaman videobooth premium.</p>
+                    </div>
+                    <div class="layanan-card">
+                        <div class="layanan-icon"><i class="fas fa-graduation-cap"></i></div>
+                        <h3>Wisuda & Farewell</h3>
+                        <p>Rayakan kelulusan dengan momen 360° yang tak terlupakan bersama teman-teman.</p>
+                    </div>
+                    <div class="layanan-card">
+                        <div class="layanan-icon"><i class="fas fa-music"></i></div>
+                        <h3>Festival & Konser</h3>
+                        <p>Tambahkan keseruan festival dengan booth 360° yang menarik perhatian pengunjung.</p>
+                    </div>
+                    <div class="layanan-card">
+                        <div class="layanan-icon"><i class="fas fa-star"></i></div>
+                        <h3>Acara Lainnya</h3>
+                        <p>Gathering, seminar, expo, atau acara apapun - kami siap membantu Anda!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Bonus Section -->
+        <section class="bonus-section">
+            <div class="container">
+                <div class="bonus-banner">
+                    <div class="bonus-icon-wrap"><i class="fas fa-gift"></i></div>
+                    <div class="bonus-main">
+                        <span class="bonus-label">🎁 BONUS GRATIS</span>
+                        <div class="bonus-items">
+                            <span class="bonus-item"><i class="fas fa-envelope"></i> Undangan Digital</span>
+                            <span class="bonus-divider">atau</span>
+                            <span class="bonus-item"><i class="fas fa-clipboard"></i> Papan Akrilik</span>
+                        </div>
+                    </div>
+                    <div class="bonus-cta"><span class="bonus-tag">Pilih Salah Satu</span></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Paket Section -->
+        <section id="paket" class="section paket-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">
+                        <i class="fas fa-crown"></i>
+                        <span>Pilihan Paket</span>
+                    </div>
+                    <h2 class="section-title">Pilih <span class="highlight">Paket Terbaik</span> Sesuai Kebutuhan Anda</h2>
+                    <p class="section-desc">Semua paket sudah termasuk benefit premium lengkap</p>
+                </div>
+                
+                <div class="pricing-grid">
+                    <!-- Silver -->
+                    <div class="pricing-card">
+                        <div class="pricing-header silver">
+                            <div class="pricing-icon"><i class="fas fa-star"></i></div>
+                            <h3 class="pricing-name">SILVER</h3>
+                            <div class="pricing-duration">
+                                <span class="duration-number">3</span>
+                                <span class="duration-text">Jam</span>
+                            </div>
+                        </div>
+                        <div class="pricing-body">
+                            <p class="pricing-desc">Cocok untuk ulang tahun, farewell, dan gathering</p>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check-circle"></i> Semua benefit premium</li>
+                                <li><i class="fas fa-check-circle"></i> 2 Crew profesional</li>
+                                <li><i class="fas fa-check-circle"></i> Unlimited video</li>
+                                <li><i class="fas fa-check-circle"></i> Sharing instan</li>
+                                <li><i class="fas fa-check-circle"></i> Custom template</li>
+                            </ul>
+                            <a href="https://wa.me/6281211114522?text=Halo%20S2M%20Production,%20saya%20tertarik%20dengan%20Paket%20SILVER%20(3%20Jam)" class="pricing-btn">
+                                <i class="fab fa-whatsapp"></i> Tanya Harga
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Gold -->
+                    <div class="pricing-card featured">
+                        <div class="pricing-ribbon">⭐ TERPOPULER</div>
+                        <div class="pricing-header gold">
+                            <div class="pricing-icon"><i class="fas fa-crown"></i></div>
+                            <h3 class="pricing-name">GOLD</h3>
+                            <div class="pricing-duration">
+                                <span class="duration-number">5</span>
+                                <span class="duration-text">Jam</span>
+                            </div>
+                        </div>
+                        <div class="pricing-body">
+                            <p class="pricing-desc">Ideal untuk resepsi nikah, seminar, dan festival</p>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check-circle"></i> Semua benefit premium</li>
+                                <li><i class="fas fa-check-circle"></i> 2 Crew profesional</li>
+                                <li><i class="fas fa-check-circle"></i> Unlimited video</li>
+                                <li><i class="fas fa-check-circle"></i> Sharing instan</li>
+                                <li><i class="fas fa-check-circle"></i> Custom template</li>
+                            </ul>
+                            <a href="https://wa.me/6281211114522?text=Halo%20S2M%20Production,%20saya%20tertarik%20dengan%20Paket%20GOLD%20(5%20Jam)" class="pricing-btn gold">
+                                <i class="fab fa-whatsapp"></i> Tanya Harga
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <!-- Diamond -->
+                    <div class="pricing-card">
+                        <div class="pricing-header diamond">
+                            <div class="pricing-icon"><i class="fas fa-gem"></i></div>
+                            <h3 class="pricing-name">DIAMOND</h3>
+                            <div class="pricing-duration">
+                                <span class="duration-number">7</span>
+                                <span class="duration-text">Jam</span>
+                            </div>
+                        </div>
+                        <div class="pricing-body">
+                            <p class="pricing-desc">Sempurna untuk wedding full day, konser, dan expo</p>
+                            <ul class="pricing-features">
+                                <li><i class="fas fa-check-circle"></i> Semua benefit premium</li>
+                                <li><i class="fas fa-check-circle"></i> 2 Crew profesional</li>
+                                <li><i class="fas fa-check-circle"></i> Unlimited video</li>
+                                <li><i class="fas fa-check-circle"></i> Sharing instan</li>
+                                <li><i class="fas fa-check-circle"></i> Custom template</li>
+                            </ul>
+                            <a href="https://wa.me/6281211114522?text=Halo%20S2M%20Production,%20saya%20tertarik%20dengan%20Paket%20DIAMOND%20(7%20Jam)" class="pricing-btn">
+                                <i class="fab fa-whatsapp"></i> Tanya Harga
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="pricing-note">
+                    <div class="note-icon"><i class="fas fa-gift"></i></div>
+                    <div class="note-content">
+                        <strong>Promo Spesial!</strong>
+                        <span>Hubungi kami untuk informasi harga dan penawaran terbaik</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Benefits Section -->
+        <section id="benefits" class="section benefits-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">
+                        <i class="fas fa-gift"></i>
+                        <span>Benefit Eksklusif</span>
+                    </div>
+                    <h2 class="section-title">Semua <span class="highlight">Benefit Premium</span> dalam Setiap Paket</h2>
+                </div>
+                
+                <div class="benefits-grid">
+                    <div class="benefit-card">
+                        <div class="benefit-icon"><i class="fas fa-users"></i></div>
+                        <h4>2 Crew Profesional</h4>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon"><i class="fas fa-video"></i></div>
+                        <h4>iPhone HD Video</h4>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon"><i class="fas fa-lightbulb"></i></div>
+                        <h4>Ringlight & RGB LED</h4>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon"><i class="fas fa-user-friends"></i></div>
+                        <h4>Kapasitas 6-7 Orang</h4>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon"><i class="fas fa-music"></i></div>
+                        <h4>Custom Template & Music</h4>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon"><i class="fas fa-cube"></i></div>
+                        <h4>Booth Besar (120 cm)</h4>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon"><i class="fas fa-play-circle"></i></div>
+                        <h4>Slow-motion/Rewind</h4>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon"><i class="fas fa-share-alt"></i></div>
+                        <h4>Sharing Instan</h4>
+                    </div>
+                    <div class="benefit-card">
+                        <div class="benefit-icon"><i class="fas fa-gift"></i></div>
+                        <h4>Fun Properties Lengkap</h4>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section class="section process-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">
+                        <i class="fas fa-route"></i>
+                        <span>Cara Kerja</span>
+                    </div>
+                    <h2 class="section-title"><span class="highlight">4 Langkah</span> Mudah Booking</h2>
+                </div>
+                
+                <div class="process-grid">
+                    <div class="process-card">
+                        <div class="process-number">01</div>
+                        <div class="process-icon"><i class="fab fa-whatsapp"></i></div>
+                        <h3>Konsultasi</h3>
+                        <p>Hubungi kami via WhatsApp untuk konsultasi gratis</p>
+                    </div>
+                    <div class="process-card">
+                        <div class="process-number">02</div>
+                        <div class="process-icon"><i class="fas fa-box-open"></i></div>
+                        <h3>Pilih Paket</h3>
+                        <p>Pilih paket sesuai durasi dan kebutuhan acara</p>
+                    </div>
+                    <div class="process-card">
+                        <div class="process-number">03</div>
+                        <div class="process-icon"><i class="fas fa-tools"></i></div>
+                        <h3>Setup Premium</h3>
+                        <p>Tim profesional setup booth di lokasi Anda</p>
+                    </div>
+                    <div class="process-card">
+                        <div class="process-number">04</div>
+                        <div class="process-icon"><i class="fas fa-check-circle"></i></div>
+                        <h3>Selesai!</h3>
+                        <p>Video siap dibagikan ke media sosial</p>
+                    </div>
+                </div>
+                
+                <div class="process-cta">
+                    <a href="https://wa.me/6281211114522?text=Halo%20S2M%20Production,%20saya%20ingin%20booking%20Videobooth%20360" class="btn btn-gold">
+                        <i class="fab fa-whatsapp"></i> Booking Sekarang
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section gallery-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">
+                        <i class="fas fa-play-circle"></i>
+                        <span>Galeri Video</span>
+                    </div>
+                    <h2 class="section-title"><span class="highlight">Hasil Karya</span> Videobooth 360° Kami</h2>
+                    <p class="section-desc">Lihat kualitas video yang akan Anda dapatkan</p>
+                </div>
+
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <div class="gallery-card">
+                            <video class="gallery-video" muted loop playsinline>
+                                <source src="src/galeri1.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-card">
+                            <video class="gallery-video" muted loop playsinline>
+                                <source src="src/galeri2.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <div class="gallery-card">
+                            <video class="gallery-video" muted loop playsinline>
+                                <source src="src/galeri3.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="gallery-cta">
+                    <a href="https://www.instagram.com/s2m_videobooth360" target="_blank" class="btn btn-outline">
+                        <i class="fab fa-instagram"></i> Lihat Lainnya
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="section testimonials-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">
+                        <i class="fas fa-star"></i>
+                        <span>Testimoni</span>
+                    </div>
+                    <h2 class="section-title">Apa Kata <span class="highlight">Klien Kami</span></h2>
+                    <p class="section-desc">Kepuasan pelanggan adalah prioritas utama kami</p>
+                </div>
+
+                <div class="testimonial-slider-wrapper">
+                    <button class="slider-arrow slider-prev" aria-label="Previous"><i class="fas fa-chevron-left"></i></button>
+                    <div class="testimonial-slider" id="testimonialSlider">
+                        <!-- Testimoni 1 - Wedding -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+                                <p>Videobooth 360-nya keren banget! Tamu-tamu pada rebutan mau foto. Hasil videonya bagus dan langsung bisa di-share. Makasih S2M!</p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">RA</div>
+                                    <div class="author-info">
+                                        <h4>Rina & Andi</h4>
+                                        <span>Wedding</span>
+                                    </div>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimoni 2 - Birthday Party -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+                                <p>Pesta ultah anak jadi makin seru! Crew-nya ramah dan sabar sama anak-anak. Props-nya juga lucu-lucu. Recommended!</p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">DS</div>
+                                    <div class="author-info">
+                                        <h4>Dewi Sartika</h4>
+                                        <span>Birthday Party</span>
+                                    </div>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimoni 3 - Gathering -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+                                <p>Gathering kantor jadi lebih seru! Semua karyawan excited banget. Hasilnya langsung bisa di-share ke grup WA. Top!</p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">BM</div>
+                                    <div class="author-info">
+                                        <h4>Budi Martono</h4>
+                                        <span>Gathering</span>
+                                    </div>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimoni 4 - Wedding -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+                                <p>Resepsi nikah kami jadi memorable banget! Video 360-nya viral di TikTok. Kualitas HD dan editingnya profesional.</p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">FN</div>
+                                    <div class="author-info">
+                                        <h4>Fani & Nanda</h4>
+                                        <span>Wedding</span>
+                                    </div>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimoni 5 - Birthday Party -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+                                <p>Sweet 17 adik jadi berkesan! Booth-nya besar, muat banyak orang. Efek slow motion-nya keren. Pasti pakai lagi!</p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">MF</div>
+                                    <div class="author-info">
+                                        <h4>Maya Fitriani</h4>
+                                        <span>Birthday Party</span>
+                                    </div>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimoni 6 - Gathering -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+                                <p>Sudah 2x pakai S2M buat acara keluarga. Selalu puas! Template-nya bisa custom sesuai tema. Mantap!</p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">RK</div>
+                                    <div class="author-info">
+                                        <h4>Rudi Kurniawan</h4>
+                                        <span>Gathering</span>
+                                    </div>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimoni 7 - Wedding -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+                                <p>Pelayanan profesional, crew datang tepat waktu. Tamu-tamu senang banget sama videobooth-nya. Worth it!</p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">AH</div>
+                                    <div class="author-info">
+                                        <h4>Ayu & Hendra</h4>
+                                        <span>Wedding</span>
+                                    </div>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimoni 8 - Birthday Party -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+                                <p>Ultah ke-40 suami jadi spesial! Teman-temannya pada kagum sama video 360-nya. Sharing ke IG juga gampang.</p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">LP</div>
+                                    <div class="author-info">
+                                        <h4>Linda Permata</h4>
+                                        <span>Birthday Party</span>
+                                    </div>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimoni 9 - Gathering -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+                                <p>Reuni SMA makin seru dengan videobooth 360! Semua teman-teman excited. Kenangan yang tak terlupakan!</p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">YS</div>
+                                    <div class="author-info">
+                                        <h4>Yuni Susanti</h4>
+                                        <span>Gathering</span>
+                                    </div>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Testimoni 10 - Wedding -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-card">
+                                <div class="testimonial-quote"><i class="fas fa-quote-left"></i></div>
+                                <p>Harga terjangkau tapi kualitas premium! Acara nikahan kami jadi lebih meriah. Terima kasih S2M Production!</p>
+                                <div class="testimonial-author">
+                                    <div class="author-avatar">SW</div>
+                                    <div class="author-info">
+                                        <h4>Sinta & Wahyu</h4>
+                                        <span>Wedding</span>
+                                    </div>
+                                    <div class="rating">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="slider-arrow slider-next" aria-label="Next"><i class="fas fa-chevron-right"></i></button>
+                    <div class="slider-dots" id="sliderDots"></div>
+                    <div class="slider-counter" id="sliderCounter">1 / 10</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="section faq-section">
+            <div class="container">
+                <div class="section-header">
+                    <div class="section-badge">
+                        <i class="fas fa-question-circle"></i>
+                        <span>FAQ</span>
+                    </div>
+                    <h2 class="section-title">Pertanyaan <span class="highlight">yang Sering Ditanyakan</span></h2>
+                </div>
+
+                <div class="faq-list">
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <i class="fas fa-circle-question"></i>
+                            <span>Apa itu Videobooth 360°?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Videobooth 360° adalah booth video yang merekam objek dari berbagai sudut secara berputar 360 derajat, menghasilkan video sinematik yang unik dan menarik untuk dibagikan di media sosial.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <i class="fas fa-circle-question"></i>
+                            <span>Berapa lama waktu setup?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Waktu setup sekitar 30-45 menit sebelum acara dimulai. Tim kami akan datang lebih awal untuk memastikan semua peralatan siap digunakan.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <i class="fas fa-circle-question"></i>
+                            <span>Apakah bisa custom template?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Ya, kami menyediakan layanan custom template sesuai tema acara Anda. Termasuk custom musik, overlay, dan efek visual lainnya.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <i class="fas fa-circle-question"></i>
+                            <span>Bagaimana cara mendapatkan hasil video?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Hasil video bisa langsung di-share ke WhatsApp, Instagram, atau media sosial lainnya secara instan. Kami juga menyediakan link download untuk semua video.</p>
+                        </div>
+                    </div>
+                    <div class="faq-item">
+                        <button class="faq-question">
+                            <i class="fas fa-circle-question"></i>
+                            <span>Area mana saja yang dilayani?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </button>
+                        <div class="faq-answer">
+                            <p>Kami melayani area Lubuklinggau dan sekitarnya. Untuk area di luar kota, silakan hubungi kami untuk informasi lebih lanjut mengenai biaya transportasi.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="faq-cta">
+                    <p>Masih ada pertanyaan?</p>
+                    <a href="https://wa.me/6281211114522?text=Halo%20S2M%20Production,%20saya%20ingin%20bertanya%20tentang%20Videobooth%20360" class="btn btn-gold">
+                        <i class="fab fa-whatsapp"></i> Tanya Langsung
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="section cta-section">
+            <div class="container">
+                <div class="cta-wrapper">
+                    <div class="cta-content">
+                        <span class="cta-emoji">🎬</span>
+                        <h2 class="cta-title">Siap Membuat Momen Spesial?</h2>
+                        <p class="cta-desc">Hubungi kami sekarang dan dapatkan penawaran terbaik untuk acara Anda!</p>
+                        <div class="cta-actions">
+                            <a href="https://wa.me/6281211114522?text=Halo%20S2M%20Production,%20saya%20ingin%20booking%20Videobooth%20360" class="btn btn-gold btn-lg">
+                                <i class="fab fa-whatsapp"></i> Booking Sekarang
+                            </a>
+                            <a href="tel:+6281211114522" class="btn btn-outline btn-lg">
+                                <i class="fas fa-phone"></i> Hubungi Kami
+                            </a>
+                        </div>
+                        <div class="cta-secondary">
+                            <a href="https://links.s2m.web.id/" target="_blank" class="btn-link">
+                                <i class="fas fa-external-link-alt"></i> Layanan Lainnya
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <img src="src/logo.png" alt="S2M Production Logo" class="footer-logo">
+                    <span class="footer-name">S2M Production</span>
+                </div>
+                <div class="footer-social">
+                    <a href="https://www.instagram.com/s2m_videobooth360/" target="_blank" class="social-link" aria-label="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@s2m_videobooth360" target="_blank" class="social-link" aria-label="TikTok">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://wa.me/6281211114522" target="_blank" class="social-link" aria-label="WhatsApp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+                <div class="footer-copy">
+                    <p>&copy; 2025 S2M Production. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/6281211114522?text=Halo%20S2M%20Production,%20saya%20tertarik%20dengan%20layanan%20Videobooth%20360" class="wa-float" aria-label="Chat WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="wa-tooltip">Chat dengan kami!</span>
+    </a>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scrollProgress"></div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
